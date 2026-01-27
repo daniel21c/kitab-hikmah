@@ -79,6 +79,10 @@ const translations = {
         "tc_cta_text": "Mulailah perjalanan \"Iqra\" Anda hari ini.",
         "tc_cta_btn": "📖 Mulai Baca Taurat",
 
+        "tc_btn_biqai_source": "🔗 Lihat Buku (Brill Academic)",
+        "tc_btn_sayyid_source": "🔗 Baca Arsip Asli (Archive.org)",
+        "tl_btn_ghazali_source": "🔗 Baca di Ghazali.org",
+
         // Topic: Identity (Isa)
         "ti_title": "Siapakah Isa Al-Masih Sebenarnya?",
         "ti_subtitle": "Rahasia Gelar 'Ruhullah'",
@@ -214,6 +218,9 @@ const translations = {
         "tc_sayyid_title": "👳‍♂️ Sir Sayyid Ahmad Khan (19th Century)",
         "tc_sayyid_intro": "This reformer wrote <em>Tabyin-ul-Kalam</em>, the first Bible commentary by a Muslim, and said:",
         "tc_sayyid_quote": "\"There is no doubt that the Torah and Gospel existing today are the same books revealed to Moses and Jesus. The original text has never been corrupted.\"",
+        "tc_sayyid_quote": "\"There is no doubt that the Torah and Gospel existing today are the same books revealed to Moses and Jesus. The original text has never been corrupted.\"",
+        "tc_btn_biqai_source": "🔗 View Book (Brill Academic)",
+        "tc_btn_sayyid_source": "🔗 Read Original Archive (Archive.org)",
         "tc_ulul_albab_title": "Be an Ulul Albab",
         "tc_ulul_albab_text": "Do not fear losing faith by reading. On the contrary, by reading the \"Prequel\" (Torah & Gospel), our faith in Allah's plan becomes complete (Kaffah). Just as Imam Al-Ghazali often quoted the wisdom of Prophet Isa a.s.",
 
@@ -240,6 +247,7 @@ const translations = {
         "tl_ghazali_quote_intro": "One of the most soul-stirring quotes is about the danger of worldly love killing the heart:",
         "tl_ghazali_extra_quote": "He also said: \"The world is a bridge, so cross it and do not build a palace upon it.\"",
         "tl_ghazali_citation": "📚 <strong>Source:</strong> Imam Al-Ghazali, <em>Ihya Ulumuddin</em>, Book of Wonders of the Heart & Book of Condemnation of the World.",
+        "tl_btn_ghazali_source": "🔗 Read on Ghazali.org",
         "tl_conclusion_title": "Light for Dark Hearts",
         "tl_conclusion_text": "If Imam Al-Ghazali himself drew \"clear water\" from Prophet Isa's teachings to cleanse the Ummah's hearts, do we not also need the \"Light\" (Nur) contained in that Gospel?",
 
@@ -352,6 +360,9 @@ const translations = {
         "tc_sayyid_title": "👳‍♂️ 서 사이이드 아흐마드 칸 (19세기)",
         "tc_sayyid_intro": "이 개혁가는 무슬림 최초의 성경 주석서인 <em>Tabyin-ul-Kalam</em>을 썼으며 이렇게 말했습니다:",
         "tc_sayyid_quote": "\"내 연구에 따르면... 오늘날 존재하는 타우라트와 인질이 모세와 예수에게 내려진 것과 동일한 책이라는 데 의심의 여지가 없다. 원문은 결코 변질되지 않았다.\"",
+        "tc_sayyid_quote": "\"내 연구에 따르면... 오늘날 존재하는 타우라트와 인질이 모세와 예수에게 내려진 것과 동일한 책이라는 데 의심의 여지가 없다. 원문은 결코 변질되지 않았다.\"",
+        "tc_btn_biqai_source": "🔗 책 보기 (Brill Academic)",
+        "tc_btn_sayyid_source": "🔗 원본 아카이브 읽기 (Archive.org)",
         "tc_ulul_albab_title": "울룰 알밥이 되십시오",
         "tc_ulul_albab_text": "읽는 것으로 신앙을 잃을까 두려워하지 마십시오. 오히려 \"프리퀄\"(타우라트와 인질)을 읽음으로써 알라의 계획에 대한 우리의 신앙은 온전해집니다(Kaffah). 이맘 알 가잘리도 예언자 이사 a.s.의 지혜를 자주 인용한 것처럼 말입니다.",
 
@@ -378,6 +389,7 @@ const translations = {
         "tl_ghazali_quote_intro": "영혼을 뒤흔드는 가장 강력한 인용구 중 하나는 마음을 죽이는 세상에 대한 사랑의 위험성에 관한 것입니다:",
         "tl_ghazali_extra_quote": "그는 또한 말했습니다: \"세상은 다리와 같으니, 건너가되 그 위에 궁전을 짓지 말라.\"",
         "tl_ghazali_citation": "📚 <strong>출처:</strong> 이맘 알 가잘리, <em>이흐야 울룸무딘</em>, 마음의 기적 편 & 세상의 비난 편.",
+        "tl_btn_ghazali_source": "🔗 Ghazali.org에서 읽기",
         "tl_conclusion_title": "어두운 마음을 위한 빛",
         "tl_conclusion_text": "이맘 알 가잘리조차 공동체(Ummah)의 마음을 정화하기 위해 예언자 이사의 가르침에서 \"맑은 물\"을 길어 올렸다면, 우리에게도 그 인질 속에 담긴 \"빛(Nur)\"이 필요하지 않겠습니까?",
 
