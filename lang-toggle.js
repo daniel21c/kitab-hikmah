@@ -45,9 +45,9 @@ const translations = {
         "dt_card2_title": "Boleh Baca?",
         "dt_card2_desc": "Sir Sayyid Ahmad Khan: \"Torah dan Injil tidak diubah.\"",
         "dt_card3_title": "Siapa Isa?",
-        "dt_card3_desc": "Imam Ar-Razi: \"Dia adalah 'Ruhullah' karena memberi kehidupan spiritual.\"",
-        "dt_card4_title": "Dimana Nur?",
-        "dt_card4_desc": "Imam Al-Ghazali mengutip ajaran Isa untuk membersihkan hati.",
+        "dt_card3_desc": "Imam Ar-Razi: \"Beliau adalah 'Ruhullah' karena memberi kehidupan spiritual.\"",
+        "dt_card4_title": "Di mana Cahayanya?",
+        "dt_card4_desc": "Imam Al-Ghazali: \"Jangan duduk dengan orang mati (pecinta dunia).\"",
 
         // Topic: Power (Tahrif)
         "tp_title": "Apakah Firman Allah Bisa Rusak?",
@@ -190,7 +190,7 @@ const translations = {
         "dt_card3_title": "Who is Jesus?",
         "dt_card3_desc": "Imam Ar-Razi: \"He is 'Ruhullah' for giving spiritual life.\"",
         "dt_card4_title": "Where is the Light?",
-        "dt_card4_desc": "Imam Al-Ghazali quotes Jesus' teachings to cleanse the heart.",
+        "dt_card4_desc": "Imam Al-Ghazali: \"Do not sit with the dead (lovers of the world).\"",
 
         // Topic: Power (Tahrif)
         "tp_title": "Can Allah's Word be Corrupted?",
@@ -332,7 +332,7 @@ const translations = {
         "dt_card3_title": "이사는 누구인가?",
         "dt_card3_desc": "이맘 알 라지: \"영적인 생명을 주기에 '루훌라(알라의 영)'이다.\"",
         "dt_card4_title": "빛은 어디에?",
-        "dt_card4_desc": "이맘 알 가잘리가 마음을 정화하기 위해 이사의 가르침을 인용하다.",
+        "dt_card4_desc": "이맘 알 가잘리: \"죽은 자들(세상을 사랑하는 자)과 앉지 말라.\"",
 
         // Topic: Power
         "tp_title": "알라의 말씀이 훼손될 수 있는가?",
