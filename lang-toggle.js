@@ -26,7 +26,7 @@ const translations = {
         "wr_card3_title": "Kunci Memahami Al-Quran Lebih Utuh",
         "wr_card3_verse_title": "Surah Al-Ma'idah (5:68)",
         "wr_card3_verse_text": "\"Katakanlah: 'Hai Ahli Kitab, kamu tidak berpegang pada suatu apa pun <strong>hingga kamu mendirikan Taurat dan Injil...'\"</strong>",
-        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"Seseorang baru dianggap berada dalam <strong>petunjuk yang benar</strong> di mata Allah apabila ia menegakkan dan mengamalkan isi Taurat dan Injil.\"</p>",
+        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"Landasan agama yang benar hanya tercapai apabila <strong>kita menegakkan ajaran Taurat dan Injil</strong>.\" (Petunjuk ini berlaku umum bagi pencari kebenaran).</p>",
 
         "wr_card4_title": "Di Dalamnya Ada \"Cahaya\" (Nur)",
         "wr_card4_verse_title": "Surah Al-Ma'idah (5:46)",
@@ -170,7 +170,7 @@ const translations = {
         "wr_card3_title": "Key to Complete Understanding",
         "wr_card3_verse_title": "Surah Al-Ma'idah (5:68)",
         "wr_card3_verse_text": "\"Say: 'O People of the Book, you have no ground to stand upon <strong>until you observe the Torah and the Gospel...'\"</strong>",
-        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"O People of the Book, indeed you are <strong>not upon anything (true religion)</strong> until you truly establish the laws of the Torah and the Gospel.\"</p>",
+        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"The foundation of true religion is only attained when <strong>we uphold the teachings of the Torah and the Gospel</strong>.\" (This guidance applies to all seekers of truth).</p>",
 
         "wr_card4_title": "Inside it is \"Light\" (Nur)",
         "wr_card4_verse_title": "Surah Al-Ma'idah (5:46)",
@@ -312,7 +312,7 @@ const translations = {
         "wr_card3_title": "온전한 이해의 열쇠",
         "wr_card3_verse_title": "수랏 알 마이다 (5:68)",
         "wr_card3_verse_text": "\"일러가로되: '오 성서의 백성들아, 너희가 <strong>타우라트와 인질을 바로 세울 때까지</strong> 너희는 아무것도 아니다...'\"",
-        "wr_card3_note": "<strong>👳‍♂️ 타프시르 알-타바리:</strong> <p>\"오 성서의 백성들이여, 너희가 타우라트와 인질의 법을 바로 세우기 전까지, 너희는 <strong>무엇(참된 종교) 위에도 서 있지 않은 것</strong>이다.\"</p>",
+        "wr_card3_note": "<strong>👳‍♂️ 타프시르 알-타바리:</strong> <p>\"참된 종교의 기반은 우리가 <strong>타우라트와 인질을 올바로 세울 때</strong> 비로소 달성된다.\" (이것은 진리를 찾는 모든 이에게 적용되는 원칙입니다).</p>",
 
         "wr_card4_title": "그 안에 \"빛(Nur)\"이 있다",
         "wr_card4_verse_title": "수랏 알 마이다 (5:46)",
