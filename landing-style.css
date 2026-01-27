@@ -1051,3 +1051,713 @@ h4 {
         padding-bottom: 0.5rem;
     }
 }
+
+/* =========================================
+   Topics Slider Section (Swiper)
+   ========================================= */
+.media-slider-section {
+    padding: 6rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-header {
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+    border-left: 4px solid var(--gold-accent);
+}
+
+.section-title {
+    font-family: 'Amiri', serif;
+    font-size: 2rem;
+    color: var(--color-primary);
+    /* Fixed variable name */
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-text-light);
+    /* Fixed variable name */
+    font-size: 0.95rem;
+}
+
+/* Swiper Container Customization */
+.swiper-container {
+    width: 100%;
+    padding-bottom: 3rem;
+    /* Space for pagination */
+    overflow: visible;
+    /* Allow shadows to show */
+}
+
+.swiper-wrapper {
+    align-items: stretch;
+    /* Ensure equal height */
+}
+
+.topic-card {
+    background: rgba(255, 255, 255, 0.7);
+    /* Slightly more opaque for visibility */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    height: auto;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.topic-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-accent), transparent);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-accent);
+    box-shadow: 0 10px 30px rgba(197, 160, 89, 0.2);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.topic-card:hover::before {
+    opacity: 1;
+}
+
+.card-icon-large {
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+}
+
+.topic-card:hover .card-icon-large {
+    transform: scale(1.1);
+}
+
+.topic-content h3 {
+    font-family: 'Amiri', serif;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.topic-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.5;
+}
+
+.card-arrow {
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+}
+
+.topic-card:hover .card-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+    background: var(--color-primary);
+    opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-accent);
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .media-slider-section {
+        padding: 4rem 1rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
+
+/* =========================================
+   Topic Detail Pages
+   ========================================= */
+.topic-detail-page {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding-bottom: 4rem;
+}
+
+.topic-nav {
+    padding: 1.5rem 2rem;
+    position: sticky;
+    top: 0;
+    background: rgba(253, 251, 247, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s;
+}
+
+.back-btn:hover {
+    color: var(--color-accent);
+}
+
+.topic-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.topic-hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    background-color: #ddd;
+    /* Fallback */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.topic-header-title {
+    font-family: 'Amiri', serif;
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    text-align: center;
+}
+
+
+.topic-content-body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+    /* Explicit font family */
+}
+
+.topic-content-body h2 {
+    font-family: 'Amiri', serif;
+    /* Serif for headings */
+    font-size: 1.8rem;
+    color: var(--color-primary-dark);
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+.topic-content-body p {
+    font-size: 1.15rem;
+    /* Larger for reading */
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #333;
+    /* Darker text for readability */
+}
+
+
+.topic-content-body ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.topic-content-body li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+/* Scholar Quote Styling */
+.scholar-quote {
+    background: #fff;
+    border-left: 4px solid var(--color-accent);
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 0 8px 8px 0;
+}
+
+.scholar-quote h3 {
+    color: var(--color-primary-dark);
+    font-family: 'Amiri', serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.scholar-quote blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #444;
+    border: none;
+    padding: 0;
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+.scholar-quote .citation {
+    font-size: 0.95rem;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-source {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.btn-source:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+.verse-block {
+    background: linear-gradient(to right, rgba(26, 64, 38, 0.05), transparent);
+    border-left: 4px solid var(--color-primary);
+    padding: 1.5rem 2rem;
+    margin: 2.5rem 0;
+    border-radius: 0 8px 8px 0;
+    font-family: 'Amiri', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--color-primary-dark);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.topic-cta-section {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to bottom, transparent, rgba(197, 160, 89, 0.1));
+    border-radius: 16px;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(26, 64, 38, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: var(--color-primary-light);
+    box-shadow: 0 6px 20px rgba(26, 64, 38, 0.4);
+}
+
+/* Tafsir Note Styling (Why Read Section) */
+.tafsir-note {
+    background-color: #f4f9f4;
+    /* Very light green */
+    border-top: 1px solid rgba(26, 64, 38, 0.1);
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+    color: #444;
+    border-radius: 0 0 12px 12px;
+    margin-top: -5px;
+    /* Visual connection to card */
+}
+
+.tafsir-note strong {
+    color: #1A4026;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.tafsir-note p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.source-link {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #1e4d2b;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.source-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* COMPACT LAYOUT OVERRIDES (Why Read Section) */
+#why-read .callout-nested {
+    padding: 1.5rem 1rem 0.8rem 1rem;
+    /* Reduced padding */
+}
+
+#why-read .verse-quote {
+    padding: 1rem 1rem 0.8rem 1rem;
+    /* Compact padding */
+    margin-bottom: 0;
+    /* Remove bottom margin to connect with note */
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    line-height: 1.5;
+    /* Tighter text line height */
+}
+
+#why-read .verse-quote strong {
+    margin-bottom: 0.2rem;
+    /* Reduce space below Surah title */
+    display: block;
+}
+
+#why-read .quran-verify-btn {
+    margin-top: 0.5rem;
+    /* Tighter button spacing */
+    padding: 0.3rem 0.8rem;
+    /* Smaller button */
+    font-size: 0.8rem;
+}
+
+#why-read .tafsir-note {
+    background-color: #fcfdfc;
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    border-top: 1px dashed rgba(197, 160, 89, 0.3);
+    /* Distinct separator */
+    margin-top: 0;
+    /* Seamless connection */
+    border-radius: 0 0 8px 8px;
+    padding: 0.8rem 1rem;
+    /* Tighter padding */
+}
+
+#why-read .tafsir-note p {
+    margin-bottom: 0.3rem;
+    /* Tighter paragraph spacing */
+    line-height: 1.5;
+}
+
+/* SLIDER COMPACT OVERRIDES (Deep Topics Section) */
+.media-slider-section {
+    padding: 2.5rem 1.5rem;
+    /* Reduced from 6rem */
+}
+
+.media-slider-section .section-header {
+    margin-bottom: 1.5rem;
+    /* Reduced from 2.5rem */
+}
+
+.swiper-container {
+    padding-bottom: 2rem !important;
+    /* Reduced bottom space for pagination */
+}
+
+.topic-card {
+    padding: 1.25rem;
+    /* Reduced from 1.5rem */
+    min-height: 240px;
+    /* Reduced min-height */
+}
+
+.card-icon-large {
+    margin-bottom: 0.75rem;
+    /* Reduced from 1.5rem */
+}
+
+.topic-content h3 {
+    margin-bottom: 0.25rem;
+    /* Reduced from 0.5rem */
+    font-size: 1.35rem;
+    /* Slightly smaller title */
+}
+
+.topic-content p {
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.card-arrow {
+    margin-top: 0.75rem;
+    /* Reduced from 1.5rem */
+}
+
+/* SOURCES & REFERENCES SECTION */
+#sources .references-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+#sources .ref-category h3 {
+    font-size: 1.1rem;
+    color: #1e4d2b;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(30, 77, 43, 0.3);
+    padding-bottom: 0.3rem;
+}
+
+#sources .ref-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sources .ref-category li {
+    margin-bottom: 0.5rem;
+}
+
+#sources .source-link {
+    display: inline-block;
+    color: #1e4d2b;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+#sources .source-link:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* =========================================
+   LIBRARY SECTION RESTORATION
+   ========================================= */
+.library {
+    background-color: var(--color-primary);
+    /* #1A4026 */
+    color: #fff;
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.library-container {
+    max-width: 1300px;
+    /* increased from 1200px */
+    margin: 0 auto;
+    padding: 0 1rem;
+    /* reduced padding */
+    text-align: center;
+}
+
+.library-icon-header {
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+.library h2 {
+    font-family: 'Amiri', serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.library-intro {
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.library-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+@media (min-width: 600px) {
+    .library-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .library-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+.library-card {
+    background: rgba(255, 255, 255, 0.08);
+    /* Lighter white/mixed */
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    /* Gold border subtle */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem 1rem;
+    /* Balanced padding */
+    transition: transform 0.3s, background 0.3s, border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.library-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--color-accent);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Circle - Hidden as requested */
+.card-icon-wrapper {
+    display: none;
+}
+
+/* Headers & Arabic */
+.library-card .arabic-title {
+    font-family: 'Amiri', serif;
+    font-size: 2.2rem;
+    color: var(--color-accent) !important;
+    /* Force Gold */
+    margin: 0 0 0.8rem 0;
+    /* Reset top margin since icon is gone */
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.library-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.library-card .card-description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 1.5rem 0 2rem 0;
+    /* More space below desc */
+    line-height: 1.4;
+    min-height: 3rem;
+    /* Fixed height for alignment */
+    display: flex;
+    align-items: flex-start;
+    /* Align top */
+    justify-content: center;
+}
+
+/* Links & Buttons */
+.card-books.centered-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+    width: 100%;
+    /* Removed margin-top: auto to let them sit higher */
+}
+
+.book-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 0.5rem;
+    background: transparent;
+    color: var(--color-accent);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    border: 1px solid var(--color-accent);
+    /* Gold Border */
+}
+
+.book-link:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+}
+
+.btn-outline-gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* Full width */
+    gap: 0.5rem;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    background: transparent;
+    min-height: 44px;
+    /* Match book-link height approx */
+}
+
+.btn-outline-gold:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .library-grid {
+        grid-template-columns: 1fr;
+    }
+}
