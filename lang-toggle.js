@@ -15,22 +15,22 @@ const translations = {
         // Why Read Cards
         "wr_card1_title": "Syarat Menjadi Muttaqin",
         "wr_card1_verse": "Dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan <strong>Kitab-kitab yang telah diturunkan sebelummu...</strong>",
-        "wr_card1_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> \"Orang-orang mukmin itu mempercayai <strong>semua kitab yang diturunkan Allah</strong> kepada para Rasul-Nya... mereka tidak membeda-bedakan satu pun di antara mereka.\"",
+        "wr_card1_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> <p>\"Orang-orang mukmin itu mempercayai semua kitab yang diturunkan Allah kepada para Rasul-Nya... mereka tidak membeda-bedakan satu pun di antara mereka.\"</p>",
 
         "wr_card2_title": "Perintah untuk Mengimani Semua Kitab",
         "wr_card2_verse": "Wahai orang-orang yang beriman, tetaplah beriman kepada Allah dan Rasul-Nya dan kepada Kitab yang Allah turunkan kepada Rasul-Nya serta <strong>Kitab yang Allah turunkan sebelumnya...</strong>",
-        "wr_card2_note": "<strong>👳‍♂️ Tafsir As-Sa'di:</strong> \"Iman kepada Kitab-kitab terdahulu adalah <strong>salah satu rukun iman</strong>. Barangsiapa mengingkari satu saja dari kitab Allah, maka ia telah mengingkari semuanya.\"",
+        "wr_card2_note": "<strong>👳‍♂️ Tafsir As-Sa'di:</strong> <p>\"Iman kepada Kitab-kitab terdahulu adalah salah satu rukun iman. Barangsiapa mengingkari satu saja dari kitab Allah, maka ia telah mengingkari semuanya.\"</p>",
 
         "wr_card3_title": "Kunci Memahami Al-Quran Lebih Utuh",
         "wr_card3_verse": "Katakanlah: 'Hai Ahli Kitab, kamu tidak berpegang pada suatu apa pun <strong>hingga kamu mendirikan Taurat dan Injil...'</strong>",
-        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> \"Wahai Ahli Kitab, sesungguhnya kamu <strong>tidak berada di atas sesuatu (agama yang benar)</strong> sampai kamu benar-benar menegakkan ajaran Taurat dan Injil.\"",
+        "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"Wahai Ahli Kitab, sesungguhnya kamu tidak berada di atas sesuatu (agama yang benar) sampai kamu benar-benar menegakkan ajaran Taurat dan Injil.\"</p>",
 
         "wr_card4_title": "Di Dalamnya Ada \"Cahaya\" (Nur)",
         "wr_card4_verse": "...Dan Kami telah memberikan kepadanya (Isa a.s.) <strong>Kitab Injil sedang didalamnya (ada) petunjuk dan cahaya</strong>, dan membenarkan kitab yang sebelumnya...",
-        "wr_card4_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> \"Di dalam Injil itu terdapat <strong>petunjuk kepada kebenaran</strong> dan cahaya yang menerangi kegelapan keraguan (syubhat) dan masalah.\"",
+        "wr_card4_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> <p>\"Di dalam Injil itu terdapat petunjuk kepada kebenaran dan cahaya yang menerangi kegelapan keraguan (syubhat) dan masalah.\"</p>",
 
         "btn_verify_quran": "Lihat di Al-Qur'an",
-        "btn_check_source": "🔗 Cek Sumber",
+        "btn_check_source": "Cek Sumber",
 
         // Deep Topics Slider
         "dt_section_title": "Jelajahi Topik Mendalam",
@@ -83,7 +83,7 @@ const translations = {
         "lib_title": "Perpustakaan Kitabullah",
         "lib_intro": "Membaca sumber asli adalah jalan menuju kebenaran. Silakan pilih Kitab yang ingin Anda pelajari.",
         "lib_quran_title": "Al-Quran",
-        "lib_quran_desc": "Wahyu terakhir kepada Nabi Muhammad SAW",
+        "lib_quran_desc": "Wahyu Terakhir Muhammad SAW",
         "btn_open_quran": "Buka di Quran.com",
         "lib_taurat_title": "Taurat",
         "lib_lang_hebrew": "Ibrani / Indonesia",
