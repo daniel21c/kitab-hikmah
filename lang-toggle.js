@@ -14,19 +14,23 @@ const translations = {
 
         // Why Read Cards
         "wr_card1_title": "Syarat Menjadi Muttaqin",
-        "wr_card1_verse": "Dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan <strong>Kitab-kitab yang telah diturunkan sebelummu...</strong>",
+        "wr_card1_verse_title": "Surah Al-Baqarah (2:4)",
+        "wr_card1_verse_text": "\"Dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan <strong>Kitab-kitab yang telah diturunkan sebelummu...\"</strong>",
         "wr_card1_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> <p>\"Orang mukmin wajib mempercayai <strong>seluruh Kitab Allah</strong> (termasuk Taurat & Injil) dan tidak membeda-bedakan satu pun di antaranya.\"</p>",
 
         "wr_card2_title": "Perintah untuk Mengimani Semua Kitab",
-        "wr_card2_verse": "Wahai orang-orang yang beriman, tetaplah beriman kepada Allah dan Rasul-Nya dan kepada Kitab yang Allah turunkan kepada Rasul-Nya serta <strong>Kitab yang Allah turunkan sebelumnya...</strong>",
+        "wr_card2_verse_title": "Surah An-Nisa (4:136)",
+        "wr_card2_verse_text": "\"Wahai orang-orang yang beriman, tetaplah beriman kepada Allah dan Rasul-Nya dan kepada Kitab yang Allah turunkan kepada Rasul-Nya serta <strong>Kitab yang Allah turunkan sebelumnya...\"</strong>",
         "wr_card2_note": "<strong>👳‍♂️ Tafsir As-Sa'di:</strong> <p>\"Iman kepada Kitab terdahulu adalah <strong>Rukun Iman</strong>; mengingkari satu kitab saja berarti telah mengingkari seluruh Rukun Iman.\"</p>",
 
         "wr_card3_title": "Kunci Memahami Al-Quran Lebih Utuh",
-        "wr_card3_verse": "Katakanlah: 'Hai Ahli Kitab, kamu tidak berpegang pada suatu apa pun <strong>hingga kamu mendirikan Taurat dan Injil...'</strong>",
+        "wr_card3_verse_title": "Surah Al-Ma'idah (5:68)",
+        "wr_card3_verse_text": "\"Katakanlah: 'Hai Ahli Kitab, kamu tidak berpegang pada suatu apa pun <strong>hingga kamu mendirikan Taurat dan Injil...'\"</strong>",
         "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"Seseorang baru dianggap berada dalam <strong>petunjuk yang benar</strong> di mata Allah apabila ia menegakkan dan mengamalkan isi Taurat dan Injil.\"</p>",
 
         "wr_card4_title": "Di Dalamnya Ada \"Cahaya\" (Nur)",
-        "wr_card4_verse": "...Dan Kami telah memberikan kepadanya (Isa a.s.) <strong>Kitab Injil sedang didalamnya (ada) petunjuk dan cahaya</strong>, dan membenarkan kitab yang sebelumnya...",
+        "wr_card4_verse_title": "Surah Al-Ma'idah (5:46)",
+        "wr_card4_verse_text": "\"...Dan Kami telah memberikan kepadanya (Isa a.s.) <strong>Kitab Injil sedang didalamnya (ada) petunjuk dan cahaya</strong>, dan membenarkan kitab yang sebelumnya...\"",
         "wr_card4_note": "<strong>👳‍♂️ Tafsir Ibnu Katsir:</strong> <p>\"Di dalam Injil terdapat <strong>petunjuk kebenaran</strong> dan cahaya yang mampu melenyapkan kegelapan keraguan (syubhat).\"</p>",
 
         "btn_verify_quran": "Lihat di Al-Qur'an",
@@ -134,7 +138,7 @@ const translations = {
         "ref_cat_tafsir": "Tafsir & Syarah",
 
         "cta_text": "Bukankah sudah saatnya kita membaca apa yang dijaga Allah?",
-        "cta_btn": "📖 Baca Injil yang Terjaga"
+        "cta_btn": "📖 Baca Kitabullah (Taurat, Zabur, Injil)"
     },
     "en": {
         "nav_back": "Back",
@@ -150,19 +154,23 @@ const translations = {
         "why_read_subtitle": "(Not human words, but direct guidance from the Quran)",
 
         "wr_card1_title": "Conditions to be Muttaqin",
-        "wr_card1_verse": "And those who believe in the Book (Quran) sent down to you and the <strong>Books sent down before you...</strong>",
+        "wr_card1_verse_title": "Surah Al-Baqarah (2:4)",
+        "wr_card1_verse_text": "\"And those who believe in the Book (Quran) sent down to you and the <strong>Books sent down before you...\"</strong>",
         "wr_card1_note": "<strong>👳‍♂️ Tafsir Ibn Kathir:</strong> <p>\"The believers believe in <strong>all the books revealed by Allah</strong> to His Messengers... they do not differentiate between any of them.\"</p>",
 
         "wr_card2_title": "Command to Believe",
-        "wr_card2_verse": "O you who believe, remain faithful to Allah and His Messenger and the Book He sent down to His Messenger and the <strong>Book He sent down before...</strong>",
+        "wr_card2_verse_title": "Surah An-Nisa (4:136)",
+        "wr_card2_verse_text": "\"O you who believe, remain faithful to Allah and His Messenger and the Book He sent down to His Messenger and the <strong>Book He sent down before...\"</strong>",
         "wr_card2_note": "<strong>👳‍♂️ Tafsir As-Sa'di:</strong> <p>\"Belief in the previous Books is <strong>one of the pillars of faith</strong>. Whoever denies even one of Allah's books has denied them all.\"</p>",
 
         "wr_card3_title": "Key to Complete Understanding",
-        "wr_card3_verse": "Say: 'O People of the Book, you have no ground to stand upon <strong>until you observe the Torah and the Gospel...'</strong>",
+        "wr_card3_verse_title": "Surah Al-Ma'idah (5:68)",
+        "wr_card3_verse_text": "\"Say: 'O People of the Book, you have no ground to stand upon <strong>until you observe the Torah and the Gospel...'\"</strong>",
         "wr_card3_note": "<strong>👳‍♂️ Tafsir At-Tabari:</strong> <p>\"O People of the Book, indeed you are <strong>not upon anything (true religion)</strong> until you truly establish the laws of the Torah and the Gospel.\"</p>",
 
         "wr_card4_title": "Inside it is \"Light\" (Nur)",
-        "wr_card4_verse": "...And We gave him (Jesus) the <strong>Gospel, in which was guidance and light</strong>, and confirming what was before it...",
+        "wr_card4_verse_title": "Surah Al-Ma'idah (5:46)",
+        "wr_card4_verse_text": "\"...And We gave him (Jesus) the <strong>Gospel, in which was guidance and light</strong>, and confirming what was before it...\"",
         "wr_card4_note": "<strong>👳‍♂️ Tafsir Ibn Kathir:</strong> <p>\"In the Gospel, there is <strong>guidance to the truth</strong> and a light that dispels the darkness of doubt and problems.\"</p>",
 
         "btn_verify_quran": "Verify in Quran",
@@ -267,7 +275,7 @@ const translations = {
         "ref_cat_tafsir": "Exegesis (Tafsir)",
 
         "cta_text": "Isn't it time we read what Allah has preserved?",
-        "cta_btn": "📖 Read the Preserved Gospel"
+        "cta_btn": "📖 Read Preserved Scriptures (Torah, Psalms, Gospel)"
     },
     "ko": {
         "nav_back": "뒤로가기",
@@ -283,19 +291,23 @@ const translations = {
         "why_read_subtitle": "(인간의 말이 아닌, 알꾸란의 직접적인 지침)",
 
         "wr_card1_title": "무따낀(독실한 자)의 조건",
-        "wr_card1_verse": "네게 내려진 성서(알꾸란)와 <strong>네 이전에 내려진 성서들을 믿으며...</strong>",
+        "wr_card1_verse_title": "수랏 알 바카라 (2:4)",
+        "wr_card1_verse_text": "\"네게 내려진 성서(알꾸란)와 <strong>네 이전에 내려진 성서들을 믿으며...\"</strong>",
         "wr_card1_note": "<strong>👳‍♂️ 타프시르 이븐 카시르:</strong> <p>\"믿는 자들은 <strong>알라께서 사도들에게 내리신 모든 성서</strong>를 믿으며... 그 중 어느 하나도 차별하지 않는다.\"</p>",
 
         "wr_card2_title": "믿으라는 명령",
-        "wr_card2_verse": "오 믿는 자들이여, 알라와 사도와 그가 사도에게 내린 성서와 <strong>그 이전에 내린 성서를 믿으라...</strong>",
+        "wr_card2_verse_title": "수랏 안 니사 (4:136)",
+        "wr_card2_verse_text": "\"오 믿는 자들이여, 알라와 사도와 그가 사도에게 내린 성서와 <strong>그 이전에 내린 성서를 믿으라...\"</strong>",
         "wr_card2_note": "<strong>👳‍♂️ 타프시르 아스-사디:</strong> <p>\"이전 성서들에 대한 믿음은 <strong>신앙(이만)의 기둥 중 하나</strong>이다. 알라의 책 중 하나라도 부인하는 자는 모든 것을 부인하는 것이다.\"</p>",
 
         "wr_card3_title": "온전한 이해의 열쇠",
-        "wr_card3_verse": "일러가로되: '오 성서의 백성들아, 너희가 <strong>타우라트와 인질을 바로 세울 때까지</strong> 너희는 아무것도 아니다...'",
+        "wr_card3_verse_title": "수랏 알 마이다 (5:68)",
+        "wr_card3_verse_text": "\"일러가로되: '오 성서의 백성들아, 너희가 <strong>타우라트와 인질을 바로 세울 때까지</strong> 너희는 아무것도 아니다...'\"",
         "wr_card3_note": "<strong>👳‍♂️ 타프시르 알-타바리:</strong> <p>\"오 성서의 백성들이여, 너희가 타우라트와 인질의 법을 바로 세우기 전까지, 너희는 <strong>무엇(참된 종교) 위에도 서 있지 않은 것</strong>이다.\"</p>",
 
         "wr_card4_title": "그 안에 \"빛(Nur)\"이 있다",
-        "wr_card4_verse": "...그리고 우리는 그(이사)에게 <strong>인질을 주었으니 그 안에는 인도와 빛이 있고</strong>, 그 이전의 것을 확증하며...",
+        "wr_card4_verse_title": "수랏 알 마이다 (5:46)",
+        "wr_card4_verse_text": "\"...그리고 우리는 그(이사)에게 <strong>인질을 주었으니 그 안에는 인도와 빛이 있고</strong>, 그 이전의 것을 확증하며...\"",
         "wr_card4_note": "<strong>👳‍♂️ 타프시르 이븐 카시르:</strong> <p>\"인질 안에는 <strong>진리로 이끄는 인도</strong>와, 의심과 문제의 어둠을 밝히는 빛이 있다.\"</p>",
 
         "btn_verify_quran": "알꾸란에서 확인",
@@ -400,7 +412,7 @@ const translations = {
         "ref_cat_tafsir": "타프시르 (주석)",
 
         "cta_text": "이제 알라께서 보존하신 것을 읽어야 할 때가 아닙니까?",
-        "cta_btn": "📖 보존된 인질(복음서) 읽기"
+        "cta_btn": "📖 보존된 성서(타우라트 · 자부르 · 인질) 읽기"
     }
 };
 

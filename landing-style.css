@@ -1644,8 +1644,8 @@ h4 {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    padding: 2rem 1rem;
-    /* Balanced padding */
+    padding: 1rem 1rem;
+    /* Reduced padding */
     transition: transform 0.3s, background 0.3s, border-color 0.3s;
     display: flex;
     flex-direction: column;
@@ -1667,8 +1667,8 @@ h4 {
 
 /* Headers & Arabic */
 .library-card .card-header {
-    min-height: 6rem;
-    /* Force consistent height for alignment */
+    min-height: 3rem;
+    /* Reduced height for tighter layout */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1681,7 +1681,7 @@ h4 {
     font-size: 2.2rem;
     color: var(--color-accent) !important;
     /* Force Gold */
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.25rem 0;
     /* Reduced margin */
     line-height: 1.1;
     font-weight: 700;
@@ -1700,7 +1700,7 @@ h4 {
 .library-card .card-description {
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.85);
-    margin: 1.5rem 0 0.5rem 0;
+    margin: 0.75rem 0 0.75rem 0;
     /* Reduced margin further */
     line-height: 1.4;
     min-height: 2.8em;
