@@ -36,7 +36,7 @@ const translations = {
 
         "wr_card4_title": "Di Dalamnya Ada \"Cahaya\" (Nur)",
         "wr_card4_verse_title": "Surah Al-Ma'idah (5:46)",
-        "wr_card4_verse_text": "\"...Dan Kami telah memberikan kepadanya (Isa a.s.) <strong>Kitab Injil sedang didalamnya (ada) petunjuk dan cahaya</strong>, dan membenarkan kitab yang sebelumnya...\"",
+        "wr_card4_verse_text": "\"...Dan Kami telah memberikan kepadanya (Isa Al-Masih a.s.) <strong>Kitab Injil sedang didalamnya (ada) petunjuk dan cahaya</strong>, dan membenarkan kitab yang sebelumnya...\"",
         "wr_card4_text": "<p>\"Di dalam Injil terdapat <strong>petunjuk kebenaran</strong> dan cahaya yang mampu melenyapkan kegelapan keraguan (syubhat).\"</p>",
 
         "btn_verify_quran": "Lihat di Al-Qur'an",
@@ -47,13 +47,26 @@ const translations = {
         "dt_section_subtitle": "Menelusuri Kebenaran dengan Hati dan Pikiran Terbuka",
 
         "dt_card1_title": "Bisa Rusak?",
-        "dt_card1_desc": "Ibnu Abbas: \"Tidak ada yang bisa mengubah kata-kata Allah.\" (Sahih Bukhari)",
+        "dt_card1_desc": "<strong>Ibnu Abbas</strong>: \"Tidak ada yang bisa mengubah kata-kata Allah.\" (Sahih Bukhari)",
+        "dt_header_ibnabbas": "👳‍♂️ Ibnu Abbas",
+        "dt_bio_ibnabbas": "<strong>Abdullah bin Abbas</strong> (w. 687 M). Sepupu Nabi Muhammad ﷺ, dijuluki <em>Turjuman al-Qur'an</em> (Penafsir Al-Qur'an) dan <em>Hibr al-Ummah</em> (Tintanya Umat) karena keluasan ilmunya.",
+
         "dt_card2_title": "Boleh Baca?",
-        "dt_card2_desc": "Sir Sayyid Ahmad Khan: \"Torah dan Injil tidak diubah.\"",
+        "dt_card2_desc": "<strong>Sir Sayyid Ahmad Khan</strong>: \"Torah dan Injil tidak diubah.\"",
+        "dt_header_sayyid": "👳‍♂️ Sir Sayyid Ahmad Khan",
+        "dt_bio_sayyid": "<strong>Sir Sayyid Ahmad Khan</strong> (1817–1898). Reformis Muslim India & pendiri Aligarh Muslim University. Penulis <em>Tabyin-ul-Kalam</em>, tafsir Alkitab yang membela keaslian Taurat & Injil.",
+        "dt_header_biqai": "👳‍♂️ Imam Al-Biqai",
+        "dt_bio_biqai": "<strong>Burhanuddin Al-Biqai</strong> (1406–1480). Mufassir era Mamluk, penulis <em>Nazm al-Durar</em>. Dikenal karena metodologinya yang unik menggunakan Taurat & Injil untuk menafsirkan kisah-kisah Al-Qur'an.",
+
         "dt_card3_title": "Siapa Isa?",
-        "dt_card3_desc": "Imam Ar-Razi: \"Beliau adalah 'Ruhullah' karena memberi kehidupan spiritual.\"",
+        "dt_card3_desc": "<strong>Imam Ar-Razi</strong>: \"Beliau adalah 'Ruhullah' karena memberi kehidupan spiritual.\"",
+        "dt_header_razi": "👳‍♂️ Imam Fakhruddin Ar-Razi",
+        "dt_bio_razi": "<strong>Fakhruddin Ar-Razi</strong> (1149–1209). Teolog & filsuf Muslim terkemuka. Penulis <em>Tafsir Al-Kabir</em> (Mafatih al-Ghaib), yang menekankan pada nalar (aqli) dan teologi.",
+
         "dt_card4_title": "Di mana Cahayanya?",
-        "dt_card4_desc": "Imam Al-Ghazali: \"Jangan duduk dengan orang mati (pecinta dunia).\"",
+        "dt_card4_desc": "<strong>Imam Al-Ghazali</strong>: \"Jangan duduk dengan orang mati (pecinta dunia).\"",
+        "dt_header_ghazali": "👳‍♂️ Imam Al-Ghazali",
+        "dt_bio_ghazali": "<strong>Abu Hamid Al-Ghazali</strong> (1058–1111). Dijuluki <em>Hujjatul Islam</em> (Bukti Islam). Penulis <em>Ihya Ulumuddin</em>, yang menggabungkan fiqih, teologi, dan tasawuf (penyucian jiwa).",
 
         // Topic: Power (Tahrif)
         "tp_title": "Apakah Firman Allah Bisa Rusak?",
@@ -68,7 +81,7 @@ const translations = {
         "tp_btn_source": "🔗 Cek di Sunnah.com (Bukhari 7535)",
         "tp_why_important_title": "Mengapa Ini Penting?",
         "tp_why_important_text": "Jika teks aslinya dijaga Allah (QS 6:115), maka \"perubahan\" yang terjadi hanyalah penyelewengan tafsir oleh oknum pendeta/ahli kitab di masa lalu. Ini berarti <strong>teks yang ada saat ini masih menyimpan \"Cahaya\" dan \"Petunjuk\"</strong> bagi mereka yang membacanya dengan hati yang lurus (Hanif).",
-        "tp_dead_sea_text": "Naskah-naskah kuno seperti <strong>Dead Sea Scrolls (Gulungan Laut Mati)</strong> yang ditemukan abad ke-20 membuktikan bahwa teks Taurat dan Mazmur zaman Nabi Isa a.s. sama dengan yang kita miliki hari ini, mematahkan teori perubahan teks yang masif.",
+        "tp_dead_sea_text": "Naskah-naskah kuno seperti <strong>Dead Sea Scrolls (Gulungan Laut Mati)</strong> yang ditemukan abad ke-20 membuktikan bahwa teks Taurat dan Mazmur zaman Nabi Isa Al-Masih a.s. sama dengan yang kita miliki hari ini, mematahkan teori perubahan teks yang masif.",
 
         // Topic: Context (Reading)
         "tc_title": "Bolehkah Muslim Membaca Injil?",
@@ -81,7 +94,7 @@ const translations = {
         "tc_sayyid_intro": "Tokoh pembaru ini menulis <em>Tabyin-ul-Kalam</em>, tafsir Alkitab pertama oleh seorang Muslim, dan berkata:",
         "tc_sayyid_quote": "\"Tidak ada keraguan bahwa Taurat dan Injil yang ada saat ini adalah kitab yang sama dengan yang diturunkan kepada Musa dan Isa. Teks aslinya tidak pernah diubah.\"",
         "tc_ulul_albab_title": "Jadilah Ulul Albab",
-        "tc_ulul_albab_text": "Jangan takut kehilangan iman karena membaca. Justru dengan membaca \"Prekuel\" (Taurat & Injil), iman kita kepada rencana Allah menjadi utuh (Kaffah). Sebagaimana Imam Al-Ghazali pun sering mengutip hikmah Nabi Isa a.s.",
+        "tc_ulul_albab_text": "Jangan takut kehilangan iman karena membaca. Justru dengan membaca \"Prekuel\" (Taurat & Injil), iman kita kepada rencana Allah menjadi utuh (Kaffah). Sebagaimana Imam Al-Ghazali pun sering mengutip hikmah Nabi Isa Al-Masih a.s.",
         "tc_cta_text": "Mulailah perjalanan \"Iqra\" Anda hari ini.",
         "tc_cta_btn": "📖 Mulai Baca Taurat",
 
@@ -92,7 +105,7 @@ const translations = {
         // Topic: Identity (Isa)
         "ti_title": "Siapakah Isa Al-Masih Sebenarnya?",
         "ti_subtitle": "Rahasia Gelar 'Ruhullah'",
-        "ti_intro": "Al-Quran memberi gelar unik kepada Isa a.s.: \"Kalimat Allah\" dan \"Roh dari-Nya\". Apa makna sebenarnya menurut Tafsir Besar (Tafsir Al-Kabir)?",
+        "ti_intro": "Al-Quran memberi gelar unik kepada Isa Al-Masih a.s.: \"Kalimat Allah\" dan \"Roh dari-Nya\" (QS 4:171). Apa makna sebenarnya menurut Tafsir Besar (Tafsir Al-Kabir)?",
         "ti_quote_title": "👳‍♂️ Pendapat Fakhr al-Din al-Razi",
         "ti_quote_block": "\"Dinamakan <strong>'Ruh'</strong> karena dia (Isa) adalah penyebab kehidupan bagi dunia dalam agama mereka... sebagaimana roh adalah penyebab kehidupan bagi tubuh manusia. Allah menjadikannya sumber hidayah yang menghidupkan hati yang mati.\"",
         "ti_razi_intro": "Mengenai gelar \"Roh Allah\", Imam Razi menjelaskan bahwa ini bukan berarti Isa adalah bagian dari dzat Tuhan (seperti anak biologis), melainkan karena fungsi Beliau sebagai <strong>Pemberi Kehidupan Spiritual</strong>:",
@@ -104,11 +117,11 @@ const translations = {
 
         // Topic: Light (Ghazali)
         "tl_title": "Cahaya Akhlak yang Sempurna",
-        "tl_subtitle": "Isa a.s. dalam Ihya Ulumuddin",
-        "tl_intro": "Imam Al-Ghazali (\"Hujjatul Islam\") sering mengutip ucapan Isa Al-Masih dalam mahakaryanya untuk mengajarkan kelembutan hati.",
+        "tl_subtitle": "Isa Al-Masih a.s. dalam Ihya Ulumuddin",
+        "tl_intro": "Imam Al-Ghazali (\"Hujjatul Islam\") sering mengutip ucapan Isa Al-Masih a.s. dalam mahakaryanya untuk mengajarkan kelembutan hati.",
         "tl_quote_title": "👳‍♂️ Kutipan Imam Al-Ghazali",
-        "tl_quote_block": "\"Isa a.s. berkata: 'Janganlah kalian duduk di majelis orang-orang mati, karena hati kalian akan ikut mati.' Mereka bertanya: 'Siapakah orang-orang mati itu?' Beliau menjawab: 'Mereka yang mencintai dunia (lebih dari akhirat).'\"",
-        "tl_ghazali_intro": "Imam Al-Ghazali, sang <em>Hujjatul Islam</em>, dalam karya monumentalnya <strong>Ihya Ulumuddin</strong>, sering mengutip perkataan Nabi Isa a.s. sebagai puncak teladan kesucian hati dan zuhud (tidak terikat dunia).",
+        "tl_quote_block": "\"Isa Al-Masih a.s. berkata: 'Janganlah kalian duduk di majelis orang-orang mati, karena hati kalian akan ikut mati.' Mereka bertanya: 'Siapakah orang-orang mati itu?' Beliau menjawab: 'Mereka yang mencintai dunia (lebih dari akhirat).'\"",
+        "tl_ghazali_intro": "Imam Al-Ghazali, sang <em>Hujjatul Islam</em>, dalam karya monumentalnya <strong>Ihya Ulumuddin</strong>, sering mengutip perkataan Nabi Isa Al-Masih a.s. sebagai puncak teladan kesucian hati dan zuhud (tidak terikat dunia).",
         "tl_ghazali_quote_intro": "Salah satu kutipan yang paling menggetarkan jiwa adalah tentang bahaya cinta dunia yang mematikan hati:",
         "tl_ghazali_extra_quote": "Beliau juga berkata: \"Dunia ini ibarat jembatan, maka seberangilah dan jangan membangun istana di atasnya.\"",
         "tl_ghazali_citation": "📚 <strong>Sumber:</strong> Imam Al-Ghazali, <em>Ihya Ulumuddin</em>, Kitab Keajaiban Hati & Kitab Tercelanya Dunia.",
@@ -196,13 +209,26 @@ const translations = {
         "dt_section_subtitle": "Tracing Truth with an Open Heart",
 
         "dt_card1_title": "Can it be Corrupted?",
-        "dt_card1_desc": "Ibn Abbas: \"No one can change Allah's words.\" (Sahih Bukhari)",
+        "dt_card1_desc": "<strong>Ibn Abbas</strong>: \"No one can change the words of Allah.\" (Sahih Bukhari)",
+        "dt_header_ibnabbas": "👳‍♂️ Ibn Abbas",
+        "dt_bio_ibnabbas": "<strong>Abdullah ibn Abbas</strong> (d. 687 CE). Cousin of Prophet Muhammad ﷺ, titled <em>Turjuman al-Quran</em> (Translator of the Quran) and <em>Hibr al-Ummah</em> (Scholar of the Nation).",
+
         "dt_card2_title": "Allowed to Read?",
-        "dt_card2_desc": "Sir Sayyid Ahmad Khan: \"Torah and Gospel are unchanged.\"",
+        "dt_card2_desc": "<strong>Sir Sayyid Ahmad Khan</strong>: \"Torah and Gospel are unchanged.\"",
+        "dt_header_sayyid": "👳‍♂️ Sir Sayyid Ahmad Khan",
+        "dt_bio_sayyid": "<strong>Sir Sayyid Ahmad Khan</strong> (1817–1898). Indian Muslim reformer & founder of Aligarh Muslim University. Author of <em>Tabyin-ul-Kalam</em>, a commentary defending the authenticity of the Bible.",
+        "dt_header_biqai": "👳‍♂️ Imam Al-Biqai",
+        "dt_bio_biqai": "<strong>Burhan al-Din al-Biqai</strong> (1406–1480). Mamluk-era exegete, author of <em>Nazm al-Durar</em>. Known for utilizing the Torah & Gospel to interpret Quranic narratives.",
+
         "dt_card3_title": "Who is Jesus?",
         "dt_card3_desc": "Imam Ar-Razi: \"He is 'Ruhullah' for giving spiritual life.\"",
+        "dt_header_razi": "👳‍♂️ Imam Fakhr al-Din al-Razi",
+        "dt_bio_razi": "<strong>Fakhr al-Din al-Razi</strong> (1149–1209). Prominent Muslim theologian & philosopher. Author of <em>Tafsir al-Kabir</em>, emphasizing reason and theology.",
+
         "dt_card4_title": "Where is the Light?",
         "dt_card4_desc": "Imam Al-Ghazali: \"Do not sit with the dead (lovers of the world).\"",
+        "dt_header_ghazali": "👳‍♂️ Imam Al-Ghazali",
+        "dt_bio_ghazali": "<strong>Abu Hamid al-Ghazali</strong> (1058–1111). Titled <em>Hujjat al-Islam</em> (Proof of Islam). Author of <em>Ihya Ulumuddin</em>, synthesizing jurisprudence, theology, and Sufism.",
 
         // Topic: Power (Tahrif)
         "tp_title": "Can Allah's Word be Corrupted?",
@@ -217,7 +243,7 @@ const translations = {
         "tp_btn_source": "🔗 Check on Sunnah.com (Bukhari 7535)",
         "tp_why_important_title": "Why is this Important?",
         "tp_why_important_text": "If the original text is preserved by Allah (QS 6:115), then the \"corruption\" is only interpretation distortion by past clergy. This means <strong>the existing text still contains \"Light\" and \"Guidance\"</strong> for those who read with an upright (Hanif) heart.",
-        "tp_dead_sea_text": "Ancient manuscripts like the <strong>Dead Sea Scrolls</strong> discovered in the 20th century prove that the Torah and Psalms text from the time of Prophet Isa a.s. is the same as what we have today, refuting theories of massive textual change.",
+        "tp_dead_sea_text": "Ancient manuscripts like the <strong>Dead Sea Scrolls</strong> discovered in the 20th century prove that the Torah and Psalms text from the time of Prophet Isa Al-Masih a.s. is the same as what we have today, refuting theories of massive textual change.",
 
         // Topic: Context
         "tc_title": "Can Muslims Read the Gospel?",
@@ -233,7 +259,7 @@ const translations = {
         "tc_btn_biqai_source": "🔗 View Book (Brill Academic)",
         "tc_btn_sayyid_source": "🔗 Read Original Archive (Archive.org)",
         "tc_ulul_albab_title": "Be an Ulul Albab",
-        "tc_ulul_albab_text": "Do not fear losing faith by reading. On the contrary, by reading the \"Prequel\" (Torah & Gospel), our faith in Allah's plan becomes complete (Kaffah). Just as Imam Al-Ghazali often quoted the wisdom of Prophet Isa a.s.",
+        "tc_ulul_albab_text": "Do not fear losing faith by reading. On the contrary, by reading the \"Prequel\" (Torah & Gospel), our faith in Allah's plan becomes complete (Kaffah). Just as Imam Al-Ghazali often quoted the wisdom of Prophet Isa Al-Masih a.s.",
 
         // Topic: Identity
         "ti_title": "Who is Jesus the Messiah Really?",
@@ -343,13 +369,26 @@ const translations = {
         "dt_section_subtitle": "열린 마음으로 진리를 추적하다",
 
         "dt_card1_title": "변질될 수 있나?",
-        "dt_card1_desc": "이븐 압바스: \"아무도 알라의 말씀을 바꿀 수 없다.\" (사히 알 부카리)",
+        "dt_card1_desc": "<strong>이븐 아바스</strong>: \"아무도 알라의 말씀을 바꿀 수 없다.\" (사히 부카리)",
+        "dt_header_ibnabbas": "👳‍♂️ 이븐 아바스",
+        "dt_bio_ibnabbas": "<strong>압둘라 이븐 아바스</strong> (d. 687). 예언자 무함마드ﷺ의 사촌. <em>투르주만 알-꾸란</em>(꾸란의 해석자)이자 <em>히브르 알-움마</em>(공동체의 학자)로 불림.",
+
         "dt_card2_title": "읽어도 되나?",
-        "dt_card2_desc": "서 사이이드 아흐마드 칸: \"타우라트와 인질은 변하지 않았다.\"",
+        "dt_card2_desc": "<strong>사이드 아흐마드 칸</strong>: \"타우라트와 인질은 변하지 않았다.\"",
+        "dt_header_sayyid": "👳‍♂️ 서 사이드 아흐마드 칸",
+        "dt_bio_sayyid": "<strong>서 사이드 아흐마드 칸</strong> (1817–1898). 인도의 무슬림 개혁가이자 알리가르 무슬림 대학 설립자. 성경의 진본성을 변호하는 주석서 <em>타빈-울-칼람</em>의 저자.",
+        "dt_header_biqai": "👳‍♂️ 이맘 알-비카이",
+        "dt_bio_biqai": "<strong>부르한우딘 알-비카이</strong> (1406–1480). 맘루크 시대의 주석가, <em>나즘 알-두라르</em>의 저자. 꾸란의 이야기를 해석하기 위해 타우라트와 인질을 인용한 것으로 유명.",
+
         "dt_card3_title": "이사는 누구인가?",
         "dt_card3_desc": "이맘 알 라지: \"영적인 생명을 주기에 '루훌라(알라의 영)'이다.\"",
+        "dt_header_razi": "👳‍♂️ 이맘 파크르 알-딘 알-라지",
+        "dt_bio_razi": "<strong>파크르 알-딘 알-라지</strong> (1149–1209). 저명한 무슬림 신학자이자 철학자. 이성과 신학을 강조한 <em>타프시르 알-카비르</em>의 저자.",
+
         "dt_card4_title": "빛은 어디에?",
         "dt_card4_desc": "이맘 알 가잘리: \"죽은 자들(세상을 사랑하는 자)과 앉지 말라.\"",
+        "dt_header_ghazali": "👳‍♂️ 이맘 알-가잘리",
+        "dt_bio_ghazali": "<strong>아부 하미드 알-가잘리</strong> (1058–1111). <em>후자트 알-이슬람</em>(이슬람의 증거)이라 불림. 법학, 신학, 수피즘(영성)을 통합한 <em>이흐야 울룸무딘</em>의 저자.",
 
         // Topic: Power
         "tp_title": "알라의 말씀이 훼손될 수 있는가?",

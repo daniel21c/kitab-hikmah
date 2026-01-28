@@ -30,13 +30,28 @@
         <div class="topic-content-body">
             <p class="intro" data-i18n="tc_intro">Membaca Kitab Terdahulu (Taurat & Injil) bukan hanya tradisi modern,
                 namun telah dilakukan oleh ulama-ulama klasik untuk memahami konteks ayat-ayat Al-Quran (Ilmu
-                <em>Munasabah</em>).</p>
+                <em>Munasabah</em>).
+            </p>
 
             <div class="scholar-quote">
-                <h3 data-i18n="tc_biqai_title">👳‍♂️ Imam Burhan al-Din al-Biqai (Wafat 885 H)</h3>
+                <div class="scholar-toggle-wrapper">
+                    <div class="scholar-header" onclick="toggleScholar('biqai')">
+                        <h3 data-i18n="dt_header_biqai" style="margin:0; display:inline-block;">👳‍♂️ Imam Al-Biqai</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="toggle-icon" id="icon-biqai" style="margin-left:8px;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div id="bio-biqai" class="scholar-bio" style="display:none; margin-top:10px;">
+                        <p data-i18n="dt_bio_biqai"></p>
+                    </div>
+                </div>
+
                 <p data-i18n="tc_biqai_intro">Beliau adalah <em>Mufassir</em> agung yang menulis tafsir terkenal
                     <strong>"Nazm al-Durar"</strong>. Keunikannya? Beliau secara ekstensif mengutip ayat-ayat Torah dan
-                    Injil untuk menunjukkan keserasian dengan Al-Quran. Beliau menulis:</p>
+                    Injil untuk menunjukkan keserasian dengan Al-Quran. Beliau menulis:
+                </p>
                 <blockquote data-i18n="tc_quote_block">
                     "Kesesuaian antara Al-Quran dengan Kitab-kitab sebelumnya adalah bukti kebenaran... Mengutipnya
                     untuk kepentingan verifikasi dan penjelasan adalah hal yang terpuji, bukan tercela."
@@ -44,14 +59,27 @@
                 <p class="citation" data-i18n="tc_biqai_citation">
                     📚 <strong>Sumber:</strong> Saleh, Walid. <em>"In Defense of the Bible"</em> (Analisis karya
                     Al-Biqai).
-                    <br><br>
-                    <a href="https://brill.com/display/title/15367" target="_blank" rel="noopener noreferrer"
-                        class="btn-source" data-i18n="tc_btn_biqai_source">🔗 Lihat Buku (Brill Academic)</a>
                 </p>
+                <a href="https://brill.com/display/title/15367" target="_blank" rel="noopener noreferrer"
+                    class="btn-source" data-i18n="tc_btn_biqai_source">🔗 Lihat Buku (Brill Academic)</a>
             </div>
 
             <div class="scholar-quote">
-                <h3 data-i18n="tc_sayyid_title">👳‍♂️ Sir Sayyid Ahmad Khan (Abad 19)</h3>
+                <div class="scholar-toggle-wrapper">
+                    <div class="scholar-header" onclick="toggleScholar('sayyid')">
+                        <h3 data-i18n="dt_header_sayyid" style="margin:0; display:inline-block;">👳‍♂️ Sir Sayyid Ahmad
+                            Khan</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="toggle-icon" id="icon-sayyid" style="margin-left:8px;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div id="bio-sayyid" class="scholar-bio" style="display:none; margin-top:10px;">
+                        <p data-i18n="dt_bio_sayyid"></p>
+                    </div>
+                </div>
+
                 <p data-i18n="tc_sayyid_intro">Tokoh pembaru ini menulis <em>Tabyin-ul-Kalam</em>, tafsir Alkitab
                     pertama oleh seorang Muslim, dan berkata:</p>
                 <blockquote data-i18n="tc_sayyid_quote">
@@ -60,12 +88,25 @@
                 </blockquote>
                 <p class="citation">
                     📚 <strong>Sumber:</strong> Sir Sayyid Ahmad Khan, <em>Tabyin-ul-Kalam</em>.
-                    <br><br>
-                    <a href="https://archive.org/details/TabayeenIlKalamFiTafseerITouratWalInjeelAlaMillatIlIslam"
-                        target="_blank" rel="noopener noreferrer" class="btn-source" data-i18n="tc_btn_sayyid_source">🔗
-                        Baca Arsip Asli (Archive.org)</a>
                 </p>
+                <a href="https://archive.org/details/TabayeenIlKalamFiTafseerITouratWalInjeelAlaMillatIlIslam"
+                    target="_blank" rel="noopener noreferrer" class="btn-source" data-i18n="tc_btn_sayyid_source">🔗
+                    Baca Arsip Asli (Archive.org)</a>
             </div>
+            <script>
+                function toggleScholar(id) {
+                    const bio = document.getElementById(`bio-${id}`);
+                    const icon = document.getElementById(`icon-${id}`);
+                    if (!bio || !icon) return;
+                    if (bio.style.display === "none") {
+                        bio.style.display = "block";
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        bio.style.display = "none";
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                }
+            </script>
 
             <h3 data-i18n="tc_ulul_albab_title">Jadilah Ulul Albab</h3>
             <p data-i18n="tc_ulul_albab_text">Jangan takut kehilangan iman karena membaca. Justru dengan membaca

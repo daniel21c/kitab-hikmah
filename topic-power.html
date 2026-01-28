@@ -32,7 +32,20 @@
                 Abbas r.a., sepupu Nabi dan ahli tafsir terbesar?</p>
 
             <div class="scholar-quote">
-                <h3 data-i18n="tp_quote_title">👳‍♂️ Pendapat Abdullah Ibnu Abbas r.a.</h3>
+                <div class="scholar-toggle-wrapper">
+                    <div class="scholar-header" onclick="toggleScholar('ibnabbas')">
+                        <h3 data-i18n="dt_header_ibnabbas" style="margin:0; display:inline-block;">👳‍♂️ Ibnu Abbas</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="toggle-icon" id="icon-ibnabbas" style="margin-left:8px;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div id="bio-ibnabbas" class="scholar-bio" style="display:none; margin-top:10px;">
+                        <p data-i18n="dt_bio_ibnabbas"></p>
+                    </div>
+                </div>
+
                 <p data-i18n="tp_quote_text">Dalam <strong>Sahih Al-Bukhari</strong>, beliau menjelaskan makna "Tahrif":
                 </p>
                 <blockquote data-i18n="tp_quote_block">
@@ -44,10 +57,9 @@
                     📚 <strong>Sumber:</strong> <em>Sahih Al-Bukhari</em>, Kitab At-Tauhid (Book 97), Bab
                     55.<br>Pandangan ini juga dikuatkan oleh <strong>Imam Ibnu Hajar al-Asqalani</strong> dalam kitab
                     syarah-nya, <em>Fath al-Bari</em>.
-                    <br><br>
-                    <a href="https://sunnah.com/bukhari/97/55" target="_blank" rel="noopener noreferrer"
-                        class="btn-source" data-i18n="tp_btn_source">🔗 Cek di Sunnah.com (Bukhari 7535)</a>
                 </p>
+                <a href="https://sunnah.com/bukhari/97/55" target="_blank" rel="noopener noreferrer" class="btn-source"
+                    data-i18n="tp_btn_source">🔗 Cek di Sunnah.com (Bukhari 7535)</a>
             </div>
 
             <h3 data-i18n="tp_why_important_title">Mengapa Ini Penting?</h3>
@@ -67,6 +79,20 @@
         </div>
     </div>
     <script src="lang-toggle.js"></script>
+    <script>
+        function toggleScholar(id) {
+            const bio = document.getElementById(`bio-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            if (!bio || !icon) return;
+            if (bio.style.display === "none") {
+                bio.style.display = "block";
+                icon.style.transform = "rotate(180deg)";
+            } else {
+                bio.style.display = "none";
+                icon.style.transform = "rotate(0deg)";
+            }
+        }
+    </script>
 </body>
 
 </html>

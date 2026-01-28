@@ -32,7 +32,21 @@
                 dalam mahakaryanya untuk mengajarkan kelembutan hati.</p>
 
             <div class="scholar-quote">
-                <h3 data-i18n="tl_ghazali_title">👳‍♂️ Imam Al-Ghazali (Hujjatul Islam)</h3>
+                <div class="scholar-toggle-wrapper">
+                    <div class="scholar-header" onclick="toggleScholar('ghazali')">
+                        <h3 data-i18n="dt_header_ghazali" style="margin:0; display:inline-block;">👳‍♂️ Imam Al-Ghazali
+                        </h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="toggle-icon" id="icon-ghazali" style="margin-left:8px;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div id="bio-ghazali" class="scholar-bio" style="display:none; margin-top:10px;">
+                        <p data-i18n="dt_bio_ghazali"></p>
+                    </div>
+                </div>
+
                 <p data-i18n="tl_ghazali_quote_intro">Salah satu kutipan yang paling menggetarkan jiwa adalah tentang
                     bahaya cinta dunia yang mematikan hati:</p>
                 <blockquote data-i18n="tl_quote_block">
@@ -46,12 +60,25 @@
                     <p class="citation" data-i18n="tl_ghazali_citation">
                         📚 <strong>Sumber:</strong> Imam Al-Ghazali, <em>Ihya Ulumuddin</em>, Kitab Keajaiban Hati &
                         Kitab Tercelanya Dunia.
-                        <br><br>
-                        <a href="https://ghazali.org/site/ihya.htm" target="_blank" rel="noopener noreferrer"
-                            class="btn-source" data-i18n="tl_btn_ghazali_source">🔗 Baca di Ghazali.org</a>
                     </p>
+                    <a href="https://ghazali.org/site/ihya.htm" target="_blank" rel="noopener noreferrer"
+                        class="btn-source" data-i18n="tl_btn_ghazali_source">🔗 Baca di Ghazali.org</a>
                 </div>
             </div>
+            <script>
+                function toggleScholar(id) {
+                    const bio = document.getElementById(`bio-${id}`);
+                    const icon = document.getElementById(`icon-${id}`);
+                    if (!bio || !icon) return;
+                    if (bio.style.display === "none") {
+                        bio.style.display = "block";
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        bio.style.display = "none";
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                }
+            </script>
 
             <h3 data-i18n="tl_conclusion_title">Cahaya untuk Hati yang Gelap</h3>
             <p data-i18n="tl_conclusion_text">Jika Imam Al-Ghazali saja menimba "air jernih" dari ajaran Nabi Isa untuk

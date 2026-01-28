@@ -32,7 +32,21 @@
                 yaitu "Kalimat Allah" dan "Roh dari-Nya" (QS 4:171).</p>
 
             <div class="scholar-quote">
-                <h3 data-i18n="ti_quote_title">👳‍♂️ Tafsir Fakhr al-Din al-Razi (Tafsir Al-Kabir)</h3>
+                <div class="scholar-toggle-wrapper">
+                    <div class="scholar-header" onclick="toggleScholar('razi')">
+                        <h3 data-i18n="dt_header_razi" style="margin:0; display:inline-block;">👳‍♂️ Imam Fakhruddin
+                            Ar-Razi</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="toggle-icon" id="icon-razi" style="margin-left:8px;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div id="bio-razi" class="scholar-bio" style="display:none; margin-top:10px;">
+                        <p data-i18n="dt_bio_razi"></p>
+                    </div>
+                </div>
+
                 <p data-i18n="ti_razi_intro">Mengenai gelar "Roh Allah", Imam Razi menjelaskan bahwa ini bukan berarti
                     Isa adalah bagian dari dzat Tuhan, melainkan karena fungsi Beliau sebagai <strong>Pemberi Kehidupan
                         Spiritual</strong>:</p>
@@ -46,12 +60,25 @@
                     Pencipta.</p>
                 <p class="citation" data-i18n="ti_razi_citation">
                     📚 <strong>Sumber:</strong> <em>Tafsir Al-Kabir (Mafatih al-Ghayb)</em>, Penjelasan QS 4:171.
-                    <br><br>
-                    <a href="https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=4&tSoraNo=4&tAyahNo=171&tDisplay=yes&UserProfile=0&LanguageId=1"
-                        target="_blank" rel="noopener noreferrer" class="btn-source" data-i18n="ti_btn_source">🔗 Cek di
-                        Altafsir.com (Arabic)</a>
                 </p>
+                <a href="https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=4&tSoraNo=4&tAyahNo=171&tDisplay=yes&UserProfile=0&LanguageId=1"
+                    target="_blank" rel="noopener noreferrer" class="btn-source" data-i18n="ti_btn_source">🔗 Cek di
+                    Altafsir.com (Arabic)</a>
             </div>
+            <script>
+                function toggleScholar(id) {
+                    const bio = document.getElementById(`bio-${id}`);
+                    const icon = document.getElementById(`icon-${id}`);
+                    if (!bio || !icon) return;
+                    if (bio.style.display === "none") {
+                        bio.style.display = "block";
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        bio.style.display = "none";
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                }
+            </script>
 
             <h3 data-i18n="ti_conclusion_title">Sang Sumber Hayat</h3>
             <p data-i18n="ti_conclusion_text">Jika Ulama besar mengakui Beliau sebagai "Sebab Kehidupan Spiritual" bagi
