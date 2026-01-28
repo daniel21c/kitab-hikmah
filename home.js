@@ -82,3 +82,19 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// Scholar Bio Toggle Function (Global Scope)
+function toggleScholar(id) {
+    const bio = document.getElementById(`bio-${id}`);
+    const icon = document.getElementById(`icon-${id}`);
+
+    if (!bio || !icon) return;
+
+    if (window.getComputedStyle(bio).display === "none") {
+        bio.style.display = "block";
+        icon.style.transform = "rotate(180deg)";
+    } else {
+        bio.style.display = "none";
+        icon.style.transform = "rotate(0deg)";
+    }
+}
