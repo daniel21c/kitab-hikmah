@@ -365,8 +365,9 @@ h4 {
     background-color: var(--color-background);
     border: 1px solid rgba(197, 160, 89, 0.4);
     border-radius: var(--radius-sm);
-    padding: var(--spacing-lg);
-    margin: var(--spacing-md) 0;
+    padding: 0.25rem 0.75rem;
+    /* Almost none */
+    margin: 0.25rem 0;
     text-align: center;
     position: relative;
 }
@@ -382,13 +383,20 @@ h4 {
     left: 20px;
 }
 
-.verse-quote strong {
+.verse-quote>strong {
     display: block;
     color: var(--color-primary);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.verse-quote span strong {
+    color: var(--color-primary);
+    font-weight: 700;
+    text-transform: none;
+    display: inline;
 }
 
 /* Quran Verification Button */
@@ -396,7 +404,8 @@ h4 {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-xs);
-    margin-top: var(--spacing-md);
+    margin-top: 0;
+    /* Removed completely */
     padding: var(--spacing-sm) var(--spacing-lg);
     background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
     color: var(--color-primary);
@@ -615,8 +624,8 @@ h4 {
 .card-description {
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.95rem;
-    margin-bottom: var(--spacing-sm);
-    /* Reduced from lg to sm */
+    margin-bottom: 0.25rem;
+    /* Reduced from variable for tighter layout */
     min-height: auto;
     /* Removed fixed height constraint */
     /* Alignment */
@@ -778,7 +787,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
-    margin: 1rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
     padding: 0;
     width: 100%;
 }
@@ -1209,7 +1218,7 @@ h4 {
 .topic-detail-page {
     background-color: var(--color-background);
     color: var(--color-text);
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .topic-nav {
@@ -1266,6 +1275,12 @@ h4 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: var(--color-primary-dark);
+}
+
+@media (max-width: 768px) {
+    .topic-header-title h1 {
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -1375,11 +1390,16 @@ h4 {
 }
 
 .topic-cta-section {
-    margin-top: 4rem;
+    margin-top: 0;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     background: linear-gradient(to bottom, transparent, rgba(197, 160, 89, 0.1));
     border-radius: 16px;
+}
+
+.topic-cta-section p {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
 }
 
 .btn-primary {
@@ -1408,7 +1428,7 @@ h4 {
     background-color: #f4f9f4;
     /* Very light green */
     border-top: 1px solid rgba(26, 64, 38, 0.1);
-    padding: 1rem 1.25rem;
+    padding: 0.5rem 0.75rem;
     font-size: 0.95rem;
     color: #444;
     border-radius: 0 0 12px 12px;
@@ -1424,8 +1444,8 @@ h4 {
 }
 
 .tafsir-note p {
-    margin-bottom: 0.5rem;
-    line-height: 1.6;
+    margin-bottom: 0;
+    line-height: 1.4;
 }
 
 .source-link {
@@ -1450,28 +1470,46 @@ h4 {
 }
 
 #why-read .verse-quote {
-    padding: 1rem 1rem 0.8rem 1rem;
-    /* Compact padding */
+    padding: 0.5rem 0.75rem;
+    /* Matches tafsir-note padding */
     margin-bottom: 0;
-    /* Remove bottom margin to connect with note */
     border-bottom: none;
     border-radius: 8px 8px 0 0;
     line-height: 1.5;
-    /* Tighter text line height */
 }
 
-#why-read .verse-quote strong {
-    margin-bottom: 0.2rem;
-    /* Reduce space below Surah title */
+#why-read .verse-quote br {
+    display: none;
+}
+
+#why-read .verse-quote>strong {
+    margin-bottom: 0;
     display: block;
 }
 
+#why-read .verse-quote span strong {
+    margin-bottom: 0;
+    display: inline;
+    text-transform: none;
+}
+
 #why-read .quran-verify-btn {
-    margin-top: 0.5rem;
-    /* Tighter button spacing */
+    display: flex;
+    /* Blocks line */
+    width: fit-content;
+    margin: 0.25rem auto 0 auto;
+    /* Exact 0.25rem gap */
     padding: 0.3rem 0.8rem;
-    /* Smaller button */
     font-size: 0.8rem;
+}
+
+#why-read .tafsir-note p {
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+#why-read .citation-actions {
+    margin-top: 0;
 }
 
 #why-read .tafsir-note {
@@ -1703,11 +1741,11 @@ h4 {
 .library-card .card-description {
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.85);
-    margin: 0.75rem 0 0.75rem 0;
-    /* Reduced margin further */
+    margin: 0.25rem 0 0.5rem 0;
+    /* Reduced margin override */
     line-height: 1.4;
-    min-height: 2.8em;
-    /* Fixed height for alignment */
+    min-height: auto;
+    /* Removed fixed height to reduce gap */
     display: flex;
     align-items: flex-start;
     /* Align top */
@@ -1727,6 +1765,8 @@ h4 {
 .card-actions.centered {
     grid-template-columns: 1fr;
     /* Quran button is single column full width */
+    margin-top: 0.5rem;
+    /* Added adjustment - Reduced */
 }
 
 .book-link {
@@ -1903,7 +1943,8 @@ h4 {
 
 .scholar-bio {
     margin-top: 8px;
-    padding: 12px 16px;
+    padding: 8px 12px;
+    /* Reduced from 12px 16px */
     background: rgba(26, 64, 38, 0.04);
     border-left: 3px solid var(--color-primary);
     border-radius: 0 8px 8px 0;
