@@ -41,6 +41,7 @@ const translations = {
 
         "btn_verify_quran": "Lihat di Al-Qur'an",
         "btn_check_source": "Cek Tafsir Asli",
+        "btn_read_more": "Selengkapnya",
 
         // Deep Topics Slider
         "dt_section_title": "Jelajahi Topik Mendalam",
@@ -205,6 +206,7 @@ const translations = {
 
         "btn_verify_quran": "Verify in Quran",
         "btn_check_source": "Check Source",
+        "btn_read_more": "Read More",
 
         "dt_section_title": "Explore Deep Topics",
         "dt_section_subtitle": "Tracing Truth with an Open Heart",
@@ -366,6 +368,7 @@ const translations = {
 
         "btn_verify_quran": "알꾸란에서 확인",
         "btn_check_source": "출처 확인",
+        "btn_read_more": "자세히 보기",
 
         "dt_section_title": "깊이 있는 주제 탐구",
         "dt_section_subtitle": "열린 마음으로 진리를 추적하다",

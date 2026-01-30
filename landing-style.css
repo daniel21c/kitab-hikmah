@@ -1114,14 +1114,16 @@ h4 {
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(197, 160, 89, 0.2);
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1rem;
+    /* Reduced from 1.25rem */
     height: auto;
-    min-height: 280px;
+    min-height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
+    /* Removed pointer */
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -1152,7 +1154,8 @@ h4 {
 
 .card-icon-large {
     color: var(--color-accent);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    /* Reduced from 1.5rem */
     opacity: 0.8;
     transition: transform 0.3s ease;
 }
@@ -1176,18 +1179,39 @@ h4 {
     line-height: 1.5;
 }
 
-.card-arrow {
-    align-self: flex-end;
-    margin-top: 1.5rem;
+/* New button styles for topic cards */
+.topic-detail-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.75rem;
+    padding: 0.4rem 0.8rem;
+    background: transparent;
     color: var(--color-accent);
-    opacity: 0;
-    transform: translateX(-10px);
+    border: 1.5px solid var(--color-accent);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
     transition: all 0.3s ease;
+    align-self: flex-start;
+    font-family: 'Inter', sans-serif;
 }
 
-.topic-card:hover .card-arrow {
-    opacity: 1;
-    transform: translateX(0);
+.topic-detail-btn svg {
+    width: 14px;
+    height: 14px;
+    transition: transform 0.3s ease;
+}
+
+.topic-detail-btn:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+    transform: translateX(3px);
+}
+
+.topic-detail-btn:hover svg {
+    transform: translateX(2px);
 }
 
 /* Swiper Pagination Bullets */
@@ -1470,8 +1494,8 @@ h4 {
 }
 
 #why-read .verse-quote {
-    padding: 0.5rem 0.75rem;
-    /* Matches tafsir-note padding */
+    padding: 0.8rem 1rem;
+    /* Unified padding with tafsir-note */
     margin-bottom: 0;
     border-bottom: none;
     border-radius: 8px 8px 0 0;
@@ -1497,8 +1521,8 @@ h4 {
     display: flex;
     /* Blocks line */
     width: fit-content;
-    margin: 0.25rem auto 0 auto;
-    /* Exact 0.25rem gap */
+    margin: 0.5rem auto;
+    /* Unified button spacing */
     padding: 0.3rem 0.8rem;
     font-size: 0.8rem;
 }
@@ -1509,7 +1533,8 @@ h4 {
 }
 
 #why-read .citation-actions {
-    margin-top: 0;
+    margin-top: 0.5rem;
+    /* Unified margin with quran-verify-btn */
 }
 
 #why-read .tafsir-note {
@@ -1547,15 +1572,15 @@ h4 {
 }
 
 .topic-card {
-    padding: 1.25rem;
-    /* Reduced from 1.5rem */
+    padding: 1rem;
+    /* Reduced from 1.25rem */
     min-height: 240px;
     /* Reduced min-height */
 }
 
 .card-icon-large {
-    margin-bottom: 0.75rem;
-    /* Reduced from 1.5rem */
+    margin-bottom: 0.5rem;
+    /* Reduced from 0.75rem */
 }
 
 .topic-content h3 {
@@ -1568,11 +1593,6 @@ h4 {
 .topic-content p {
     margin-bottom: 0;
     line-height: 1.4;
-}
-
-.card-arrow {
-    margin-top: 0.75rem;
-    /* Reduced from 1.5rem */
 }
 
 /* SOURCES & REFERENCES SECTION */
@@ -1914,7 +1934,8 @@ h4 {
 
 /* Scholar Bio Toggle Styles */
 .scholar-toggle-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    /* Removed extra spacing above note-text */
 }
 
 .scholar-header {
