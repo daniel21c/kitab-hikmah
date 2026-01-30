@@ -133,7 +133,7 @@ const translations = {
 
         // Library Section
         "lib_title": "Perpustakaan Kitabullah",
-        "lib_intro": "Membaca sumber asli adalah jalan menuju kebenaran. Silakan pilih Kitab yang ingin Anda pelajari.",
+        "lib_intro": "Membaca sumber asli adalah jalan menuju kebenaran.<br>Silakan pilih Kitab yang ingin Anda pelajari.",
         "lib_quran_title": "Al-Quran",
         "lib_quran_desc": "Wahyu Terakhir Muhammad SAW",
         "btn_open_quran": "Buka di Quran.com",
@@ -295,7 +295,7 @@ const translations = {
 
         // Library Section
         "lib_title": "Scripture Library",
-        "lib_intro": "Reading original sources is the path to truth. Please choose the Book you wish to study.",
+        "lib_intro": "Reading original sources is the path to truth.<br>Please choose the Book you wish to study.",
         "lib_quran_title": "Al-Quran",
         "lib_quran_desc": "The Final Revelation to Muhammad SAW",
         "btn_open_quran": "Open in Quran.com",
@@ -457,7 +457,7 @@ const translations = {
 
         // Library Section
         "lib_title": "성서 도서관",
-        "lib_intro": "원전을 읽는 것이 진리로 가는 길입니다. 공부하고 싶은 성서를 선택하세요.",
+        "lib_intro": "원전을 읽는 것이 진리로 가는 길입니다.<br>공부하고 싶은 성서를 선택하세요.",
         "lib_quran_title": "꾸란",
         "lib_quran_desc": "무함마드 SAW에게 내려진 마지막 계시",
         "btn_open_quran": "Quran.com에서 열기",
