@@ -1494,8 +1494,12 @@ h4 {
 }
 
 #why-read .verse-quote {
-    padding: 0.8rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
     /* Unified padding with tafsir-note */
+    padding: 0.8rem 1rem;
     margin-bottom: 0;
     border-bottom: none;
     border-radius: 8px 8px 0 0;
