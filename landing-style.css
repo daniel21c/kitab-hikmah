@@ -1552,8 +1552,8 @@ h4 {
 #why-read .tafsir-note p {
     margin-top: 0;
     /* Remove top spacing caused by cascade */
-    margin-bottom: 0.3rem;
-    /* Tighter paragraph spacing */
+    margin-bottom: 0;
+    /* Remove bottom spacing for uniform button gaps */
     line-height: 1.5;
 }
 
