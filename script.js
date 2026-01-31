@@ -647,9 +647,11 @@ function setupFontSettings() {
             }
         });
 
-        // Prevent closing when clicking inside panel
-        settingsPanel.addEventListener('click', (e) => {
-            e.stopPropagation();
+        // Prevent closing when clicking or touching inside panel
+        ['click', 'touchstart', 'pointerdown'].forEach(evt => {
+            settingsPanel.addEventListener(evt, (e) => {
+                e.stopPropagation();
+            }, { passive: false });
         });
     }
 
@@ -660,13 +662,21 @@ function setupFontSettings() {
             updateFontSize(e.target.value);
         });
 
+        // Stop propagation for touchstart and pointerdown to prevent panel closing
+        ['touchstart', 'pointerdown'].forEach(evt => {
+            fontSizeSlider.addEventListener(evt, (e) => {
+                e.stopPropagation();
+            }, { passive: false });
+        });
+
         // Robust Mobile Touch Handler
         const handleTouch = (e) => {
             // Check if it's a valid single touch
             if (e.touches.length > 1) return;
 
-            // Prevent page scrolling while dragging slider
+            // Prevent page scrolling while dragging slider and stop propagation
             if (e.cancelable) e.preventDefault();
+            e.stopPropagation();
 
             const touch = e.touches[0];
             const rect = fontSizeSlider.getBoundingClientRect();
